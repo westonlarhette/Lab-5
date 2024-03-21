@@ -1,0 +1,17 @@
+Matplotlib is a powerful tool for creating lots of different interactive visualizations and plots.
+
+Basic plotting: 
+    matplotlib.pyplot.plot(x,y) creates y vs. x plot
+    matplotlib.pyplot.xlabel() - creates x-label
+    matplotlib.pyplot.ylabel() - creates y-label
+    matplotlib.pyplot.title() - creates plot title
+    matplotlib.pyplot.show() - this displays the plot
+    
+Scatter Plot:
+    matplotlib.pyplot.scatter() - creates scatter plot
+    
+Subplot: 
+    matplotlib.pyplot.subplot(A,B,C) - creates Cth subplot of AxB  = suplots
+    Further plot commands such as .plot() or .title() can be used after this to modify each plot in the larger plot matrix
+    
+matplotlib.pyplot.tight_layout() cleans up the plot and makes the layout tighter
